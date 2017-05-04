@@ -1,6 +1,6 @@
 {
   "name": "ElasticBox",
-  "revision": "2014-09-01",
+  "revision": "2017-05-04",
   "url": "http://www.elasticbox.com",
   "status": "beta",
   "status_since": "2011-12-01",
@@ -9,12 +9,10 @@
     "public": true,
     "private": true
   },
-  "pricings": [
-
-  ],
+  "pricings": [],
   "scaling": {
-    "vertical": false,
     "horizontal": false,
+    "vertical": false,
     "auto": false
   },
   "runtimes": [
@@ -26,26 +24,21 @@
     },
     {
       "language": "php",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
   "middlewares": [
     {
       "name": "nginx",
-      "versions": [
-
-      ]
+      "runtime": "",
+      "versions": []
     }
   ],
   "frameworks": [
     {
       "name": "rails",
       "runtime": "ruby",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
   "services": {
@@ -74,49 +67,35 @@
       {
         "name": "redis",
         "type": "datastore",
-        "versions": [
-
-        ]
+        "versions": []
       },
       {
         "name": "memcached",
         "type": "datastore",
-        "versions": [
-
-        ]
+        "versions": []
       },
       {
         "name": "microsoft sql server",
         "type": "datastore",
-        "versions": [
-
-        ]
+        "versions": []
       },
       {
         "name": "mysql",
         "type": "datastore",
-        "versions": [
-
-        ]
+        "versions": []
       },
       {
         "name": "oracle db",
         "type": "datastore",
-        "versions": [
-
-        ]
+        "versions": []
       },
       {
         "name": "postgresql",
         "type": "datastore",
-        "versions": [
-
-        ]
+        "versions": []
       }
     ],
-    "addon": [
-
-    ]
+    "addon": []
   },
   "extensible": true,
   "infrastructures": [
