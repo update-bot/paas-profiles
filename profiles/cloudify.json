@@ -1,6 +1,6 @@
 {
   "name": "Cloudify",
-  "revision": "2013-07-05T17:47:54+02:00",
+  "revision": "2017-05-04",
   "url": "http://www.gigaspaces.com/cloudify",
   "status": "production",
   "status_since": "2012-02-14",
@@ -11,43 +11,35 @@
   },
   "pricings": [
     {
-      "model": "free"
+      "model": "free",
+      "period": ""
     }
   ],
   "scaling": {
-    "vertical": false,
     "horizontal": true,
+    "vertical": false,
     "auto": true
   },
   "runtimes": [
     {
       "language": "java",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "ruby",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
-  "middlewares": [
-
-  ],
-  "frameworks": [
-
-  ],
-  "services": null,
+  "middlewares": [],
+  "frameworks": [],
+  "services": {
+    "native": [],
+    "addon": []
+  },
   "extensible": true,
-  "infrastructures": [
-
-  ]
+  "infrastructures": []
 }
