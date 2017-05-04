@@ -1,6 +1,6 @@
 {
   "name": "Pivotal Web Services",
-  "revision": "2014-05-22",
+  "revision": "2017-05-04",
   "url": "https://run.pivotal.io/",
   "status": "production",
   "status_since": "2014-05-07",
@@ -17,8 +17,8 @@
     }
   ],
   "scaling": {
-    "vertical": true,
     "horizontal": true,
+    "vertical": true,
     "auto": false
   },
   "runtimes": [
@@ -61,9 +61,7 @@
     },
     {
       "language": "scala",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "go",
@@ -87,43 +85,31 @@
     {
       "name": "grails",
       "runtime": "groovy",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "play",
       "runtime": "java",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "spring",
       "runtime": "java",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "rails",
       "runtime": "ruby",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "sinatra",
       "runtime": "ruby",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
   "services": {
-    "native": [
-
-    ],
+    "native": [],
     "addon": [
       {
         "name": "searchify",
@@ -236,13 +222,13 @@
       {
         "name": "cedexisopenmix",
         "url": "",
-        "description": "Openmix Global Cloud & Data Center Load Balancer",
+        "description": "Openmix Global Cloud \u0026 Data Center Load Balancer",
         "type": ""
       },
       {
         "name": "cedexisradar",
         "url": "",
-        "description": "Free Website &amp; Mobile App Performance Reports",
+        "description": "Free Website \u0026amp; Mobile App Performance Reports",
         "type": ""
       },
       {
