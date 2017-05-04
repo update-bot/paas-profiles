@@ -1,8 +1,8 @@
 {
   "name": "Anynines",
-  "revision": "2016-09-30",
-  "url": "http://www.anynines.com/",
+  "revision": "2017-05-04",
   "vendor_verified": "2013-07-11",
+  "url": "http://www.anynines.com/",
   "status": "production",
   "status_since": "2015-07-01",
   "type": "Generic",
@@ -18,8 +18,8 @@
     }
   ],
   "scaling": {
-    "vertical": true,
     "horizontal": true,
+    "vertical": true,
     "auto": false
   },
   "runtimes": [
@@ -63,9 +63,7 @@
     },
     {
       "language": "scala",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
   "middlewares": [
@@ -82,51 +80,38 @@
     {
       "name": "grails",
       "runtime": "groovy",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "lift",
       "runtime": "scala",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "play",
       "runtime": "java",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "rails",
       "runtime": "ruby",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "sinatra",
       "runtime": "ruby",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "spring",
       "runtime": "java",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
   "services": {
     "native": [
       {
         "name": "elasticsearch",
-        "description": "",
         "type": "search",
         "versions": [
           "0.20"
@@ -134,7 +119,6 @@
       },
       {
         "name": "mongodb",
-        "description": "",
         "type": "datastore",
         "versions": [
           "2.0"
@@ -142,7 +126,6 @@
       },
       {
         "name": "mysql",
-        "description": "",
         "type": "datastore",
         "versions": [
           "5.5"
@@ -150,7 +133,6 @@
       },
       {
         "name": "postgresql",
-        "description": "",
         "type": "datastore",
         "versions": [
           "9.1"
@@ -158,7 +140,6 @@
       },
       {
         "name": "rabbitmq",
-        "description": "",
         "type": "worker",
         "versions": [
           "2.8"
@@ -166,7 +147,6 @@
       },
       {
         "name": "redis",
-        "description": "",
         "type": "datastore",
         "versions": [
           "2.2"
@@ -174,16 +154,13 @@
       },
       {
         "name": "swift store",
-        "description": "",
         "type": "datastore",
         "versions": [
           "1.0"
         ]
       }
     ],
-    "addon": [
-
-    ]
+    "addon": []
   },
   "extensible": true,
   "infrastructures": [
