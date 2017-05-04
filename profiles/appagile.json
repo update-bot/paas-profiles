@@ -1,15 +1,14 @@
 {
   "name": "AppAgile",
-  "revision": "2016-07-22",
+  "revision": "2017-05-04",
   "url": "https://cloud.telekom.de/infrastruktur/appagile/",
   "status": "production",
-  "status_since": null,
   "type": "Generic",
   "platform": "OpenShift Origin",
   "hosting": {
     "public": true,
-    "virtual_private": true,
-    "private": false
+    "private": false,
+    "virtual_private": true
   },
   "pricings": [
     {
@@ -18,16 +17,14 @@
     }
   ],
   "scaling": {
-    "vertical": true,
     "horizontal": true,
+    "vertical": true,
     "auto": true
   },
   "runtimes": [
     {
       "language": "java",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "node",
@@ -96,12 +93,14 @@
     },
     {
       "name": "WSO2 identity server",
+      "runtime": "apex",
       "versions": [
         "5.0.0"
       ]
     },
     {
       "name": "IBM WebSphere",
+      "runtime": "apex",
       "versions": [
         "8.5.5.5"
       ]
@@ -111,23 +110,17 @@
     {
       "name": "django",
       "runtime": "python",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "drupal",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "flask",
       "runtime": "python",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "rails",
@@ -146,57 +139,8 @@
     }
   ],
   "services": {
-    "native": [
-      {
-        "name": "jenkins",
-        "versions": [
-          "1.4",
-          "1.5"
-        ],
-        "type": "devops"
-      },
-      {
-        "name": "mongodb",
-        "versions": [
-          "2.4"
-        ],
-        "type": "datastore"
-      },
-      {
-        "name": "cassandra",
-        "versions": [
-          "1.2.4",
-          "1.2.5"
-        ],
-        "type": "datastore"
-      },
-      {
-        "name": "mysql",
-        "versions": [
-          "5.1",
-          "5.5"
-        ],
-        "type": "datastore"
-      },
-      {
-        "name": "postgresql",
-        "versions": [
-          "8.4",
-          "9.2"
-        ],
-        "type": "datastore"
-      },
-      {
-        "name": "apache activemq",
-        "versions": [
-          "5.1"
-        ],
-        "type": "worker"
-      }
-    ],
-    "addon": [
-
-    ]
+    "native": [],
+    "addon": []
   },
   "extensible": true,
   "infrastructures": [
