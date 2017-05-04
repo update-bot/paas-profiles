@@ -1,6 +1,6 @@
 {
   "name": "CloudUnit",
-  "revision": "2014-12-15",
+  "revision": "2017-05-04",
   "vendor_verified": "2014-12-16",
   "url": "http://cloudunit.fr/",
   "status": "beta",
@@ -12,12 +12,13 @@
   },
   "pricings": [
     {
-      "model": "free"
+      "model": "free",
+      "period": ""
     }
   ],
   "scaling": {
-    "vertical": false,
     "horizontal": false,
+    "vertical": false,
     "auto": false
   },
   "runtimes": [
@@ -48,9 +49,7 @@
       ]
     }
   ],
-  "frameworks": [
-
-  ],
+  "frameworks": [],
   "services": {
     "native": [
       {
@@ -61,9 +60,7 @@
         ]
       }
     ],
-    "addon": [
-
-    ]
+    "addon": []
   },
   "extensible": false,
   "infrastructures": [
