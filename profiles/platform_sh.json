@@ -1,6 +1,6 @@
 {
   "name": "Platform.sh",
-  "revision": "2016-09-21",
+  "revision": "2017-05-04",
   "url": "https://platform.sh",
   "status": "production",
   "status_since": "2014-09-01",
@@ -15,12 +15,13 @@
       "period": "monthly"
     }
   ],
-  "qos": {
-    "uptime": 99.99
+  "quality": {
+    "uptime": 99.99,
+    "compliance": []
   },
   "scaling": {
-    "vertical": true,
     "horizontal": true,
+    "vertical": true,
     "auto": false
   },
   "runtimes": [
@@ -55,37 +56,27 @@
       ]
     }
   ],
-  "middlewares": [
-
-  ],
+  "middlewares": [],
   "frameworks": [
     {
       "name": "cakephp",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "codeigniter",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "drupal",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "laravel",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "symfony",
@@ -98,59 +89,43 @@
     {
       "name": "wordpress",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "zend",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "magento",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "prestashop",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "silex",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "sonata",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
   "services": {
     "native": [
       {
         "name": "blob",
-        "description": "",
         "type": "datastore",
-        "versions": [
-
-        ]
+        "versions": []
       },
       {
         "name": "elasticsearch",
-        "description": "",
         "type": "datastore",
         "versions": [
           "0.9",
@@ -160,15 +135,11 @@
       },
       {
         "name": "filesystem",
-        "description": "",
         "type": "datastore",
-        "versions": [
-
-        ]
+        "versions": []
       },
       {
         "name": "mongodb",
-        "description": "",
         "type": "datastore",
         "versions": [
           "3.0"
@@ -185,7 +156,6 @@
       },
       {
         "name": "postgis",
-        "description": "",
         "type": "datastore",
         "versions": [
           "9.4"
@@ -193,7 +163,6 @@
       },
       {
         "name": "postgresql",
-        "description": "",
         "type": "datastore",
         "versions": [
           "9.4"
@@ -201,7 +170,6 @@
       },
       {
         "name": "redis",
-        "description": "",
         "type": "datastore",
         "versions": [
           "2.8",
@@ -210,7 +178,6 @@
       },
       {
         "name": "solr",
-        "description": "",
         "type": "datastore",
         "versions": [
           "3.6",
@@ -219,7 +186,6 @@
       },
       {
         "name": "rabbitmq",
-        "description": "",
         "type": "other",
         "versions": [
           "3.5"
