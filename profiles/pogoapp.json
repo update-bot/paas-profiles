@@ -1,9 +1,8 @@
 {
-  "name": "Pogoapp",
-  "revision": "2016-08-09",
+  "name": "Pogoapp das ist ein Test",
+  "revision": "2017-05-04",
   "url": "http://www.pogodan.com/hosting",
   "status": "beta",
-  "status_since": "2013-03-04",
   "type": "Generic",
   "hosting": {
     "public": true,
@@ -16,16 +15,14 @@
     }
   ],
   "scaling": {
-    "vertical": false,
     "horizontal": true,
+    "vertical": false,
     "auto": false
   },
   "runtimes": [
     {
       "language": "lua",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "node",
@@ -35,33 +32,23 @@
     },
     {
       "language": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "python",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "ruby",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
-  "middlewares": [
-
-  ],
+  "middlewares": [],
   "frameworks": [
     {
       "name": "luvit",
       "runtime": "lua",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
   "services": {
@@ -69,55 +56,35 @@
       {
         "name": "memcached",
         "type": "datastore",
-        "description": "",
-        "versions": [
-
-        ]
+        "versions": []
       },
       {
         "name": "postgresql",
         "type": "datastore",
-        "description": "",
-        "versions": [
-
-        ]
+        "versions": []
       },
       {
         "name": "redis",
         "type": "datastore",
-        "description": "",
-        "versions": [
-
-        ]
+        "versions": []
       },
       {
         "name": "ceph",
         "type": "datastore",
-        "description": "Distributed object store",
-        "versions": [
-
-        ]
+        "versions": []
       },
       {
         "name": "mongodb",
         "type": "datastore",
-        "description": "",
-        "versions": [
-
-        ]
+        "versions": []
       },
       {
         "name": "mysql",
         "type": "datastore",
-        "description": "",
-        "versions": [
-
-        ]
+        "versions": []
       }
     ],
-    "addon": [
-
-    ]
+    "addon": []
   },
   "extensible": true,
   "infrastructures": [
