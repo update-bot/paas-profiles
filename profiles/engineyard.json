@@ -1,6 +1,6 @@
 {
   "name": "EngineYard",
-  "revision": "2014-10-09",
+  "revision": "2017-05-04",
   "url": "http://www.engineyard.com/",
   "status": "production",
   "status_since": "2006-09-01",
@@ -16,8 +16,8 @@
     }
   ],
   "scaling": {
-    "vertical": true,
     "horizontal": true,
+    "vertical": true,
     "auto": false
   },
   "runtimes": [
@@ -91,12 +91,14 @@
     },
     {
       "name": "haproxy",
+      "runtime": "",
       "versions": [
         "1.5"
       ]
     },
     {
       "name": "nginx",
+      "runtime": "",
       "versions": [
         "1.4"
       ]
@@ -136,9 +138,7 @@
     {
       "name": "merb",
       "runtime": "ruby",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
   "services": {
