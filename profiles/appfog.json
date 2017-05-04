@@ -1,6 +1,6 @@
 {
   "name": "AppFog",
-  "revision": "2016-09-30",
+  "revision": "2017-05-04",
   "url": "https://www.ctl.io/appfog/",
   "status": "production",
   "status_since": "2012-07-15",
@@ -17,8 +17,8 @@
     }
   ],
   "scaling": {
-    "vertical": true,
     "horizontal": true,
+    "vertical": true,
     "auto": false
   },
   "runtimes": [
@@ -65,9 +65,7 @@
     {
       "name": "gunicorn",
       "runtime": "python",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "tomcat",
@@ -89,9 +87,7 @@
     {
       "name": "flask",
       "runtime": "python",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "rails",
@@ -106,7 +102,6 @@
     "native": [
       {
         "name": "mongodb",
-        "description": "",
         "type": "datastore",
         "versions": [
           "1.8",
@@ -115,7 +110,6 @@
       },
       {
         "name": "mysql",
-        "description": "",
         "type": "datastore",
         "versions": [
           "5.1"
@@ -123,7 +117,6 @@
       },
       {
         "name": "postgresql",
-        "description": "",
         "type": "datastore",
         "versions": [
           "9.1"
@@ -131,7 +124,6 @@
       },
       {
         "name": "rabbitmq",
-        "description": "",
         "type": "worker",
         "versions": [
           "2.4"
@@ -139,7 +131,6 @@
       },
       {
         "name": "redis",
-        "description": "",
         "type": "datastore",
         "versions": [
           "2.2"
@@ -150,127 +141,106 @@
       {
         "name": "blitz",
         "url": "https://www.blitz.io/",
-        "description": "",
         "type": "analytics"
       },
       {
         "name": "cedexis",
         "url": "http://www.cedexis.com/",
-        "description": "",
         "type": "other"
       },
       {
         "name": "cleardb",
         "url": "http://www.cleardb.com/",
-        "description": "",
         "type": "datastore"
       },
       {
         "name": "cloudamqp",
         "url": "http://cloudamqp.com/",
-        "description": "",
         "type": "worker"
       },
       {
         "name": "cloudinary",
         "url": "http://cloudinary.com/",
-        "description": "",
         "type": "media"
       },
       {
         "name": "cloudmailin",
         "url": "http://www.cloudmailin.com/",
-        "description": "",
         "type": "messaging"
       },
       {
         "name": "elephantsql",
         "url": "http://www.elephantsql.com/",
-        "description": "",
         "type": "datastore"
       },
       {
         "name": "ironmq",
         "url": "http://www.iron.io/mq",
-        "description": "",
         "type": "worker"
       },
       {
         "name": "ironworker",
         "url": "http://www.iron.io/worker",
-        "description": "",
         "type": "worker"
       },
       {
         "name": "logentries",
         "url": "https://logentries.com/",
-        "description": "",
         "type": "analytics"
       },
       {
         "name": "mailgun",
         "url": "http://www.mailgun.com/",
-        "description": "",
         "type": "messaging"
       },
       {
         "name": "memcached cloud",
         "url": "http://garantiadata.com/memcached",
-        "description": "",
         "type": "datastore"
       },
       {
         "name": "memcachier",
         "url": "http://www.memcachier.com/",
-        "description": "",
         "type": "datastore"
       },
       {
         "name": "compose mongodb",
         "url": "https://www.compose.io/mongodb/",
-        "description": "",
         "type": "datastore"
       },
       {
         "name": "mongolab",
         "url": "https://mongolab.com/",
-        "description": "",
         "type": "datastore"
       },
       {
         "name": "nexmo",
         "url": "http://nexmo.com/",
-        "description": "",
         "type": "messaging"
       },
       {
         "name": "redis cloud",
         "url": "http://redis-cloud.com/",
-        "description": "",
         "type": "datastore"
       },
       {
         "name": "searchify",
         "url": "http://www.searchify.com/",
-        "description": "",
         "type": "search"
       },
       {
         "name": "sendgrid",
         "url": "http://sendgrid.com/",
-        "description": "",
         "type": "messaging"
       },
       {
         "name": "statsmix",
         "url": "https://www.statsmix.com/",
-        "description": "",
         "type": "analytics"
       },
       {
         "name": "tempodb",
         "url": "http://tempo-db.com/",
-        "description": "",
         "type": "datastore"
       }
     ]
