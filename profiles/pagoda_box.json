@@ -1,6 +1,6 @@
 {
   "name": "Pagoda Box",
-  "revision": "2013-07-05T17:47:54+02:00",
+  "revision": "2017-05-04",
   "url": "http://www.pagodabox.com/",
   "status": "production",
   "status_since": "2011-10-20",
@@ -15,12 +15,13 @@
       "period": "monthly"
     },
     {
-      "model": "free"
+      "model": "free",
+      "period": ""
     }
   ],
   "scaling": {
-    "vertical": true,
     "horizontal": true,
+    "vertical": true,
     "auto": false
   },
   "runtimes": [
@@ -37,35 +38,27 @@
       ]
     }
   ],
-  "middlewares": null,
+  "middlewares": [],
   "frameworks": [
     {
       "name": "codeigniter",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "kohana",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "cakephp",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "fuelphp",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "symfony",
@@ -78,45 +71,33 @@
     {
       "name": "yii",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "zend",
       "runtime": "php",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
   "services": {
     "native": [
       {
         "name": "memcached",
-        "versions": [
-
-        ],
-        "type": "datastore"
+        "type": "datastore",
+        "versions": []
       },
       {
         "name": "mysql",
-        "versions": [
-
-        ],
-        "type": "datastore"
+        "type": "datastore",
+        "versions": []
       },
       {
         "name": "redis",
-        "versions": [
-
-        ],
-        "type": "datastore"
+        "type": "datastore",
+        "versions": []
       }
     ],
-    "addon": [
-
-    ]
+    "addon": []
   },
   "extensible": false,
   "infrastructures": [
