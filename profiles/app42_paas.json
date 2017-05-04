@@ -1,6 +1,6 @@
 {
   "name": "App42 PaaS",
-  "revision": "2014-06-03",
+  "revision": "2017-05-04",
   "url": "http://app42paas.shephertz.com/",
   "status": "production",
   "status_since": "2014-01-14",
@@ -16,16 +16,14 @@
     }
   ],
   "scaling": {
-    "vertical": true,
     "horizontal": true,
+    "vertical": true,
     "auto": false
   },
   "runtimes": [
     {
       "language": "groovy",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "java",
@@ -63,6 +61,7 @@
   "middlewares": [
     {
       "name": "httpd",
+      "runtime": "",
       "versions": [
         "2.2",
         "2.4.2"
@@ -70,6 +69,7 @@
     },
     {
       "name": "nginx",
+      "runtime": "",
       "versions": [
         "1.4.1"
       ]
@@ -101,9 +101,7 @@
     {
       "name": "roo",
       "runtime": "java",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "cakephp",
@@ -143,9 +141,7 @@
     {
       "name": "django",
       "runtime": "python",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
   "services": {
@@ -186,9 +182,7 @@
         ]
       }
     ],
-    "addon": [
-
-    ]
+    "addon": []
   },
   "extensible": false,
   "infrastructures": [
