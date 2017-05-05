@@ -1,8 +1,8 @@
 {
   "name": "Atos Cloud Foundry",
-  "revision": "2016-11-28",
-  "url": "https://canopy-cloud.com/application-platforms/atos-cloud-foundry",
+  "revision": "2017-05-05",
   "vendor_verified": "2016-05-25",
+  "url": "https://canopy-cloud.com/application-platforms/atos-cloud-foundry",
   "status": "production",
   "status_since": "2015-01-07",
   "type": "Generic",
@@ -11,9 +11,6 @@
     "public": true,
     "private": true
   },
-  "qos": {
-    "uptime": 99.9
-  },  
   "pricings": [
     {
       "model": "metered",
@@ -24,343 +21,123 @@
       "period": "monthly"
     }
   ],
+  "quality": {
+    "uptime": 99.9,
+    "compliance": []
+  },
   "scaling": {
-    "vertical": true,
     "horizontal": true,
+    "vertical": true,
     "auto": true
   },
   "runtimes": [
     {
       "language": "clojure",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "go",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "groovy",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "java",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "node",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "scala",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "python",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "ruby",
-      "versions": [
-      
-      ]
+      "versions": []
     },
     {
       "language": "dotnet",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "swift",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
   "middlewares": [
     {
       "name": "tomcat",
       "runtime": "java",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "tomee",
       "runtime": "java",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "jboss",
       "runtime": "java",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
   "frameworks": [
     {
       "name": "grails",
       "runtime": "groovy",
-      "versions": [
-      
-      ]
+      "versions": []
     },
     {
       "name": "play",
       "runtime": "java",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "spring",
       "runtime": "java",
-      "versions": [
-      
-      ]
+      "versions": []
     },
     {
       "name": "rails",
       "runtime": "ruby",
-      "versions": [
-      
-      ]
+      "versions": []
     },
     {
       "name": "rack",
       "runtime": "ruby",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "name": "sinatra",
       "runtime": "ruby",
-      "versions": [
-      
-      ]
+      "versions": []
     },
     {
       "name": "hhvm",
       "runtime": "php",
-      "versions": [
-    
-      ]
+      "versions": []
     },
     {
       "name": "django",
       "runtime": "python",
-      "versions": [
-    
-      ]
+      "versions": []
     }
   ],
   "services": {
-    "native": [
-      {
-        "name": "mongodb",
-        "description": "",
-        "type": "datastore",
-        "versions": [
-
-        ]
-      },
-      {
-        "name": "memcached",
-        "description": "",
-        "type": "datastore",
-        "versions": [
-
-        ]
-      },
-      {
-        "name": "mysql",
-        "description": "",
-        "type": "datastore",
-        "versions": [
-
-        ]
-      },
-      {
-        "name": "postgresql",
-        "description": "",
-        "type": "datastore",
-        "versions": [
-
-        ]
-      },
-      {
-        "name": "rabbitmq",
-        "description": "",
-        "type": "worker",
-        "versions": [
-
-        ]
-      },
-      {
-        "name": "redis",
-        "description": "",
-        "type": "datastore",
-        "versions": [
-
-        ]
-      },
-      {
-        "name": "Neo4J",
-        "description": "",
-        "type": "datastore",
-        "versions": [
-
-        ]
-      },
-      {
-        "name": "kafka",
-        "description": "",
-        "type": "message broker",
-        "versions": [
-
-        ]
-      },
-      {
-        "name": "riak cs",
-        "description": "",
-        "type": "datastore",
-        "versions": [
-
-        ]
-      },
-      {
-        "name": "cassandra",
-        "description": "",
-        "type": "datastore",
-        "versions": [
-
-        ]
-      },
-      {
-        "name": "elasticsearch",
-        "description": "",
-        "type": "search",
-        "versions": [
-
-        ]
-      },
-      {                                                                                                                                                                     
-        "name": "abacus",                                                                                                                                                  
-        "description": "",                                                                                                                                                  
-        "type": "metering",                                                                                                                                                
-        "versions": [                                                                                                                                                       
-                                                                                                                                                                            
-        ]                                                                                                                                                                   
-      },
-      {
-        "name": "couchdb",
-        "description": "",
-        "type": "datastore",
-        "versions": [
-
-        ]
-      },
-       {
-        "name": "dingo-postgresql",
-        "description": "",
-        "type": "datastore",
-        "versions": [
-
-        ]
-      }
-    ],
-    "addon": [
-    {
-        "name": "ADFS/LDAP/AS",
-        "url": "https://canopy-cloud.com/application-platforms/canopy-cloud-fabric",
-        "description": "",
-        "type": "other"
-      },
-      {
-        "name": "Advanced Developer GUI",
-        "url": "https://canopy-cloud.com/application-platforms/canopy-cloud-fabric",
-        "description": "",
-        "type": "console"
-      },
-      {
-        "name": "Jenkins",
-        "url": "https://canopy-cloud.com/application-platforms/canopy-cloud-fabric",
-        "description": "",
-        "type": "other"
-      },
-      {
-        "name": "Datadog",
-        "url": "https://canopy-cloud.com/application-platforms/canopy-cloud-fabric",
-        "description": "",
-        "type": "monitoring"
-      },
-      {
-        "name": "NewRelic",
-        "url": "https://canopy-cloud.com/application-platforms/canopy-cloud-fabric",
-        "description": "",
-        "type": "monitoring"
-      },
-      {
-        "name": "Dynatrace",
-        "url": "https://canopy-cloud.com/application-platforms/canopy-cloud-fabric",
-        "description": "",
-        "type": "other"
-      },
-      {
-        "name": "Nagios",
-        "url": "https://canopy-cloud.com/application-platforms/canopy-cloud-fabric",
-        "description": "Internal monitoring",
-        "type": "monitoring"
-      },
-      {
-        "name": "Pingdom",
-        "url": "https://canopy-cloud.com/application-platforms/canopy-cloud-fabric",
-        "description": "External monitoring",
-        "type": "monitoring"
-      },
-      {
-        "name": "StatusPage",
-        "url": "https://canopy-cloud.com/application-platforms/canopy-cloud-fabric",
-        "description": "External monitoring",
-        "type": "monitoring"
-      },
-      {
-        "name": "Canopy Compose Service Broker",
-        "url": "https://canopy-cloud.com/application-platforms/canopy-cloud-fabric",
-        "description": "",
-        "type": "broker"
-      },
-      {
-        "name": "Database administrative app for Postgresql, MySQL, MongoDB, CouchDB",
-        "url": "https://canopy-cloud.com/application-platforms/canopy-cloud-fabric",
-        "description": "",
-        "type": "app"
-      }
-    ]
+    "native": [],
+    "addon": []
   },
   "extensible": true,
   "infrastructures": [
