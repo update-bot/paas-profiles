@@ -1,6 +1,6 @@
 {
   "name": "Force.com",
-  "revision": "2016-01-06",
+  "revision": "2017-05-05",
   "url": "http://www.force.com/",
   "status": "production",
   "status_since": "2008-01-01",
@@ -16,21 +16,22 @@
     }
   ],
   "scaling": {
-    "vertical": false,
     "horizontal": false,
+    "vertical": false,
     "auto": true
   },
   "runtimes": [
     {
       "language": "apex",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
-  "middlewares": null,
-  "frameworks": null,
-  "services": null,
+  "middlewares": [],
+  "frameworks": [],
+  "services": {
+    "native": [],
+    "addon": []
+  },
   "extensible": false,
   "infrastructures": [
     {
