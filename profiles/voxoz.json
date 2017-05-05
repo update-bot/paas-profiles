@@ -1,39 +1,31 @@
 {
   "name": "Voxoz",
-  "revision": "2014-03-11",
+  "revision": "2017-05-05",
   "url": "http://voxoz.com",
   "status": "alpha",
-  "status_since": null,
   "type": "Generic",
   "hosting": {
     "public": true,
     "private": false
   },
-  "pricings": [
-
-  ],
+  "pricings": [],
   "scaling": {
-    "vertical": true,
     "horizontal": true,
+    "vertical": true,
     "auto": false
   },
   "runtimes": [
     {
       "language": "erlang",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
-  "middlewares": [
-
-  ],
-  "frameworks": [
-
-  ],
-  "services": null,
+  "middlewares": [],
+  "frameworks": [],
+  "services": {
+    "native": [],
+    "addon": []
+  },
   "extensible": false,
-  "infrastructures": [
-
-  ]
+  "infrastructures": []
 }
