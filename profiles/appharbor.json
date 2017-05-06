@@ -1,6 +1,6 @@
 {
   "name": "AppHarbor",
-  "revision": "2014-05-28",
+  "revision": "2017-05-06",
   "url": "https://appharbor.com/",
   "status": "production",
   "status_since": "2012-02-02",
@@ -15,12 +15,13 @@
       "period": "monthly"
     },
     {
-      "model": "free"
+      "model": "free",
+      "period": ""
     }
   ],
   "scaling": {
-    "vertical": true,
     "horizontal": true,
+    "vertical": true,
     "auto": false
   },
   "runtimes": [
@@ -33,34 +34,24 @@
       ]
     }
   ],
-  "middlewares": [
-
-  ],
-  "frameworks": [
-
-  ],
+  "middlewares": [],
+  "frameworks": [],
   "services": {
     "native": [
       {
         "name": "microsoft sql server",
-        "versions": [
-
-        ],
-        "type": "datastore"
+        "type": "datastore",
+        "versions": []
       },
       {
         "name": "memcached",
-        "versions": [
-
-        ],
-        "type": "datastore"
+        "type": "datastore",
+        "versions": []
       },
       {
         "name": "mysql",
-        "versions": [
-
-        ],
-        "type": "datastore"
+        "type": "datastore",
+        "versions": []
       }
     ],
     "addon": [
@@ -71,163 +62,163 @@
       },
       {
         "name": "appfail",
-        "type": "analytics",
-        "url": "http://appfail.net/"
+        "url": "http://appfail.net/",
+        "type": "analytics"
       },
       {
         "name": "blitline",
-        "type": "media",
-        "url": "http://blitline.com/"
+        "url": "http://blitline.com/",
+        "type": "media"
       },
       {
         "name": "blitz",
-        "type": "analytics",
-        "url": "https://www.blitz.io/"
+        "url": "https://www.blitz.io/",
+        "type": "analytics"
       },
       {
         "name": "cloudamqp",
-        "type": "",
-        "url": "http://cloudamqp.com/"
+        "url": "http://cloudamqp.com/",
+        "type": ""
       },
       {
         "name": "cloudant",
-        "type": "",
-        "url": "https://cloudant.com/"
+        "url": "https://cloudant.com/",
+        "type": ""
       },
       {
         "name": "cloudinary",
-        "type": "",
-        "url": "http://cloudinary.com/"
+        "url": "http://cloudinary.com/",
+        "type": ""
       },
       {
         "name": "cloudmailin",
-        "type": "",
-        "url": "http://www.cloudmailin.com/"
+        "url": "http://www.cloudmailin.com/",
+        "type": ""
       },
       {
         "name": "cloudscheduler",
-        "type": "worker",
-        "url": "https://getcloudscheduler.com/"
+        "url": "https://getcloudscheduler.com/",
+        "type": "worker"
       },
       {
         "name": "elephantsql",
-        "type": "datastore",
-        "url": "http://www.elephantsql.com/"
+        "url": "http://www.elephantsql.com/",
+        "type": "datastore"
       },
       {
         "name": "found",
-        "type": "search",
-        "url": "http://www.found.no/"
+        "url": "http://www.found.no/",
+        "type": "search"
       },
       {
         "name": "hosted graphite",
-        "type": "",
-        "url": "https://www.hostedgraphite.com/"
+        "url": "https://www.hostedgraphite.com/",
+        "type": ""
       },
       {
         "name": "ironmq",
-        "type": "worker",
-        "url": "http://www.iron.io/mq"
+        "url": "http://www.iron.io/mq",
+        "type": "worker"
       },
       {
         "name": "librato",
-        "type": "analytics",
-        "url": "https://librato.com/"
+        "url": "https://librato.com/",
+        "type": "analytics"
       },
       {
         "name": "loader.io",
-        "type": "",
-        "url": "http://loader.io/"
+        "url": "http://loader.io/",
+        "type": ""
       },
       {
         "name": "logentries",
-        "type": "analytics",
-        "url": "https://logentries.com/"
+        "url": "https://logentries.com/",
+        "type": "analytics"
       },
       {
         "name": "mailgun",
-        "type": "",
-        "url": "http://www.mailgun.com/"
+        "url": "http://www.mailgun.com/",
+        "type": ""
       },
       {
         "name": "memcached cloud",
-        "type": "datastore",
-        "url": "http://redislabs.com/memcached-cloud"
+        "url": "http://redislabs.com/memcached-cloud",
+        "type": "datastore"
       },
       {
         "name": "memcachier",
-        "type": "datastore",
-        "url": "http://www.memcachier.com/"
+        "url": "http://www.memcachier.com/",
+        "type": "datastore"
       },
       {
         "name": "compose mongodb",
-        "type": "datastore",
-        "url": "https://www.compose.io/mongodb/"
+        "url": "https://www.compose.io/mongodb/",
+        "type": "datastore"
       },
       {
         "name": "mongolab",
-        "type": "datastore",
-        "url": "https://mongolab.com/"
+        "url": "https://mongolab.com/",
+        "type": "datastore"
       },
       {
         "name": "new relic",
-        "type": "analytics",
-        "url": "http://newrelic.com/"
+        "url": "http://newrelic.com/",
+        "type": "analytics"
       },
       {
         "name": "rabbitmq bigwig",
-        "type": "worker",
-        "url": "http://bigwig.io/"
+        "url": "http://bigwig.io/",
+        "type": "worker"
       },
       {
         "name": "ravenhq",
-        "type": "datastore",
-        "url": "https://www.ravenhq.com/"
+        "url": "https://www.ravenhq.com/",
+        "type": "datastore"
       },
       {
         "name": "redis to go",
-        "type": "datastore",
-        "url": "http://redistogo.com/"
+        "url": "http://redistogo.com/",
+        "type": "datastore"
       },
       {
         "name": "redis cloud",
-        "type": "datastore",
-        "url": "http://redis-cloud.com/"
+        "url": "http://redis-cloud.com/",
+        "type": "datastore"
       },
       {
         "name": "searchly",
-        "type": "search",
-        "url": "http://www.searchly.com/"
+        "url": "http://www.searchly.com/",
+        "type": "search"
       },
       {
         "name": "searchify",
-        "type": "search",
-        "url": "https://www.searchify.com/"
+        "url": "https://www.searchify.com/",
+        "type": "search"
       },
       {
         "name": "sendgrid",
-        "type": "messaging",
-        "url": "http://sendgrid.com/"
+        "url": "http://sendgrid.com/",
+        "type": "messaging"
       },
       {
         "name": "spreedly",
-        "type": "payment",
-        "url": "https://spreedly.com/"
+        "url": "https://spreedly.com/",
+        "type": "payment"
       },
       {
         "name": "statsmix",
-        "type": "analytics",
-        "url": "https://www.statsmix.com/"
+        "url": "https://www.statsmix.com/",
+        "type": "analytics"
       },
       {
         "name": "stillalive",
-        "type": "analytics",
-        "url": "https://stillalive.com/"
+        "url": "https://stillalive.com/",
+        "type": "analytics"
       },
       {
         "name": "svnsailor",
-        "type": "devops",
-        "url": "https://appharbor.com/addons/svnsailor"
+        "url": "https://appharbor.com/addons/svnsailor",
+        "type": "devops"
       }
     ]
   },
