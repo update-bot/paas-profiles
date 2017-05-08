@@ -1,6 +1,6 @@
 {
   "name": "Platformer.com",
-  "revision": "2014-07-14",
+  "revision": "2017-05-08",
   "url": "http://platformer.com/",
   "status": "production",
   "status_since": "2014-07-08",
@@ -16,35 +16,26 @@
     }
   ],
   "scaling": {
-    "vertical": true,
     "horizontal": true,
+    "vertical": true,
     "auto": true
   },
   "runtimes": [
     {
       "language": "php",
-      "versions": [
-
-      ]
+      "versions": []
     },
     {
       "language": "dotnet",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
-  "middlewares": [
-
-  ],
-  "frameworks": [
-
-  ],
+  "middlewares": [],
+  "frameworks": [],
   "services": {
     "native": [
       {
         "name": "mysql",
-        "description": "",
         "type": "datastore",
         "versions": [
           "5.5"
@@ -52,15 +43,16 @@
       },
       {
         "name": "mongodb",
-        "description": "",
         "type": "datastore",
-        "versions": [
-
-        ]
+        "versions": []
       }
     ],
     "addon": [
-
+      {
+        "name": "",
+        "url": "",
+        "type": ""
+      }
     ]
   },
   "extensible": false,
@@ -76,6 +68,12 @@
       "country": "AU",
       "region": "Sydney",
       "provider": "Ninefold"
+    },
+    {
+      "continent": "",
+      "country": "",
+      "provider": "",
+      "region": ""
     }
   ]
 }
