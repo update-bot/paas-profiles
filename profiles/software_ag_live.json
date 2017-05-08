@@ -1,9 +1,8 @@
 {
-  "name": "Software AG Live",
-  "revision": "2013-07-05T17:47:54+02:00",
+  "name": "Software AG Live dsfs dfdsf",
+  "revision": "2017-05-08",
   "url": "http://www.softwareag.com/live/",
   "status": "production",
-  "status_since": "2007-09-24",
   "type": "SaaS-centric",
   "hosting": {
     "public": true,
@@ -16,21 +15,22 @@
     }
   ],
   "scaling": {
-    "vertical": false,
     "horizontal": false,
+    "vertical": false,
     "auto": true
   },
   "runtimes": [
     {
       "language": "java",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
-  "middlewares": null,
-  "frameworks": null,
-  "services": null,
+  "middlewares": [],
+  "frameworks": [],
+  "services": {
+    "native": [],
+    "addon": []
+  },
   "extensible": false,
   "infrastructures": [
     {
