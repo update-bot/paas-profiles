@@ -1,6 +1,6 @@
 {
   "name": "mOSAIC",
-  "revision": "2015-05-26",
+  "revision": "2017-05-10",
   "url": "http://www.mosaic-cloud.eu",
   "status": "beta",
   "status_since": "2011-09-01",
@@ -11,31 +11,27 @@
   },
   "pricings": [
     {
-      "model": "free"
+      "model": "free",
+      "period": ""
     }
   ],
   "scaling": {
-    "vertical": false,
     "horizontal": true,
+    "vertical": false,
     "auto": true
   },
   "runtimes": [
     {
       "language": "java",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
-  "middlewares": [
-
-  ],
-  "frameworks": [
-
-  ],
-  "services": null,
+  "middlewares": [],
+  "frameworks": [],
+  "services": {
+    "native": [],
+    "addon": []
+  },
   "extensible": false,
-  "infrastructures": [
-
-  ]
+  "infrastructures": []
 }
