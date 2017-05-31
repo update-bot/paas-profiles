@@ -1,6 +1,6 @@
 {
-  "name": "OrangeScape",
-  "revision": "2014-07-18",
+  "name": "OrangeScape Neu",
+  "revision": "2017-05-31",
   "url": "http://www.orangescape.com/paas/platform-as-a-service/",
   "status": "production",
   "status_since": "2008-12-01",
@@ -9,31 +9,24 @@
     "public": false,
     "private": true
   },
-  "pricings": [
-
-  ],
+  "pricings": [],
   "scaling": {
-    "vertical": false,
     "horizontal": false,
+    "vertical": false,
     "auto": false
   },
   "runtimes": [
     {
       "language": "java",
-      "versions": [
-
-      ]
+      "versions": []
     }
   ],
-  "middlewares": [
-
-  ],
-  "frameworks": [
-
-  ],
-  "services": null,
+  "middlewares": [],
+  "frameworks": [],
+  "services": {
+    "native": [],
+    "addon": []
+  },
   "extensible": false,
-  "infrastructures": [
-
-  ]
+  "infrastructures": []
 }
